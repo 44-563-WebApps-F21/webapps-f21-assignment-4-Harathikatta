@@ -18,36 +18,42 @@
 {
     color:blueviolet;
 }
+.Goring:hover
+{
+    background-color:lightpink;
+    color:navy;
+    border-style: double;
+    text-shadow:1px 2px 3px gold;
+    filter: blur(1px);
+}
 .Robert
 {
     color:chartreuse;
 }
-table{
+
+.Robert:hover
+{
+    background-color:lightpink;
+    color:navy;
+    border-style: double;
+    text-shadow:1px 2px 3px gold;
+    filter: blur(1px);
+}
+
+table th,td 
+{
     font-family: 'Times New Roman', Times, serif;
     color:rebeccapurple;
+    border:1px solid black;
     border-collapse: collapse;
     width: 40%;
-    text-align:"left";
-}
-table td, table th
-{
-    border: 1px solid burlywood;
-    padding: 8px; margin:50px;
+    padding: 8px; 
     text-align:center;
-}
-tr:nth-child(even) 
+   
+}  
+table tr:nth-child(even)
 {
-    background-color:lightyellow;
+    background-color:lightslategray;
 }
-table tr:hover
-{
-    background-color: #ddd;
-}
-table th
-{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color:mediumseagreen;
-    color: white;
-}
+
+
